@@ -1,6 +1,19 @@
 Change Log
 ==========
 
+Version 1.8.0 *(2015-02-18)*
+----------------------------
+
+ * Added `fab_labelsPosition` attribute
+ * Fixed issue with labels style being overridden by theme style
+
+Version 1.7.0 *(2015-02-01)*
+----------------------------
+
+ * Added removeButton API to FloatingActionsMenu
+ * Fixed NPEs related to incorrect animators initialization
+ * Fixed labels positions for FloatingActionsMenu with mini add button
+
 Version 1.6.0 *(2015-01-16)*
 ----------------------------
 
