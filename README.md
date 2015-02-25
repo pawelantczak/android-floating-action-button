@@ -1,3 +1,22 @@
+Backport to API level 10.
+====================
+
+How to use?
+
+Add my nexus to repositories:
+```gradle
+repositories {
+        ...
+        maven { url "http://nexus.antczak.org/content/repositories/releases/" }
+    }
+```    
+add dependency:
+```gradle
+compile 'com.getbase:floatingactionbutton:1.8.0.api10'
+```
+
+Will I backport future releases? Maybe.
+
 FloatingActionButton
 ====================
 Yet another library for drawing [Material Design promoted actions](http://www.google.com/design/spec/patterns/promoted-actions.html).
